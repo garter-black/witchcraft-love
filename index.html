@@ -1,0 +1,605 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>WITCHCRAFT.LOVE - Company, Not Therapy</title>
+<meta name="description" content="Nadia. Companionship for isolation, ageing and after trauma. Human escalation built in. No clinical claims.">
+<link rel="canonical" href="https://witchcraft.love/">
+<meta property="og:title" content="WITCHCRAFT.LOVE - Company, Not Therapy">
+<meta property="og:description" content="Nadia. Companionship for isolation, ageing and after trauma. Human escalation built in. No clinical claims.">
+<meta property="og:url" content="https://witchcraft.love/">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary">
+<meta name="theme-color" content="#F4F0EA">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","name":"WITCHCRAFT.LOVE - Company, Not Therapy","url":"https://witchcraft.love/","description":"Nadia. Companionship for isolation, ageing and after trauma. Human escalation built in. No clinical claims.","isPartOf":{"@type":"WebSite","name":"Witchcraft AI","url":"https://witchcraft.business/"},"publisher":{"@type":"Organization","name":"WITCHCRAFT AI","url":"https://pitch./"}}</script>
+<link href="https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;600;700&family=Nunito:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+<style>
+/* ============================================================
+   WITCHCRAFT.LOVE - WARM PAPER, QUIET ROOM
+   Warmth held, register lifted. Paper ground, hairline rules,
+   one muted terracotta. Depth comes from space and weight,
+   not from inflation. Nothing bounces. Nothing squeaks.
+   ============================================================ */
+
+:root{
+  --paper:#F4F0EA;      /* warm paper field */
+  --card:#FBF8F5;       /* raised surface */
+  --solid:#FFFFFF;      /* the most stable surface: safeguards */
+  --tint:#EDE7DE;       /* recessed surface */
+  --ink:#2E2A26;        /* display + headings */
+  --body:#3A342E;       /* body copy */
+  --soft:#56504A;       /* secondary copy */
+  --dim:#5F5851;        /* labels, legal, captions */
+  --accent:#7A4230;     /* muted terracotta, used sparingly */
+  --rule:#DBD3C8;       /* hairline */
+  --rule-soft:#E6DFD5;
+  --max:1120px;
+  --display:"Cabin",sans-serif;
+  --text:"Nunito",Verdana,sans-serif;
+  --ease:cubic-bezier(.22,1,.36,1);
+  --lift:0 1px 2px rgba(62,52,42,.05),0 10px 30px rgba(62,52,42,.055);
+  --lift-deep:0 1px 2px rgba(62,52,42,.06),0 18px 46px rgba(62,52,42,.08);
+}
+
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{
+  background:var(--paper);
+  color:var(--body);
+  font-family:var(--text);
+  font-size:17px;
+  line-height:1.72;
+  -webkit-font-smoothing:antialiased;
+  overflow-x:hidden;
+  position:relative;
+  min-height:100%;
+}
+a{color:inherit;text-decoration:none}
+img,svg{display:block}
+::selection{background:#E5D8CD;color:var(--ink)}
+
+/* ---------- THE FIELD: barely-there warm washes ---------- */
+.field{position:fixed;inset:0;z-index:0;pointer-events:none;overflow:hidden}
+.field b{
+  position:absolute;display:block;border-radius:50%;
+  filter:blur(70px);opacity:.5;will-change:transform;
+}
+.field b:nth-child(1){width:52vmax;height:52vmax;left:-18vmax;top:-16vmax;background:#EAE2D6;animation:drift-a 150s ease-in-out infinite}
+.field b:nth-child(2){width:40vmax;height:40vmax;right:-14vmax;top:20vmax;background:#EFE4D9;animation:drift-b 178s ease-in-out infinite}
+.field b:nth-child(3){width:44vmax;height:44vmax;left:10vmax;bottom:-18vmax;background:#E9E7DE;animation:drift-c 164s ease-in-out infinite}
+@keyframes drift-a{0%,100%{transform:translate3d(0,0,0)}50%{transform:translate3d(4vmax,3vmax,0)}}
+@keyframes drift-b{0%,100%{transform:translate3d(0,0,0)}50%{transform:translate3d(-4vmax,3vmax,0)}}
+@keyframes drift-c{0%,100%{transform:translate3d(0,0,0)}50%{transform:translate3d(3vmax,-3vmax,0)}}
+
+/* ---------- LAYOUT ---------- */
+.wrap{max-width:var(--max);margin:0 auto;padding:0 30px;position:relative;z-index:2}
+section{padding:76px 0}
+.breath{height:26px}
+
+/* ---------- NAV ---------- */
+.navbar{position:relative;z-index:20;padding:26px 30px 8px}
+.navbar .bar{
+  max-width:var(--max);margin:0 auto;
+  display:flex;flex-wrap:wrap;gap:6px;align-items:center;
+  background:rgba(251,248,245,.86);
+  -webkit-backdrop-filter:blur(9px);backdrop-filter:blur(9px);
+  border:1px solid var(--rule);
+  border-radius:2px;padding:10px 12px;
+  box-shadow:var(--lift);
+}
+.pill{
+  display:inline-block;border-radius:2px;
+  font-family:var(--display);font-weight:600;font-size:12px;
+  letter-spacing:.16em;text-transform:uppercase;
+  padding:10px 14px;color:var(--soft);
+  border:1px solid transparent;
+  transition:color .3s var(--ease),border-color .3s var(--ease),background .3s var(--ease);
+  cursor:pointer;
+}
+.pill:hover{color:var(--ink);border-color:var(--rule)}
+.pill:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.brand{
+  margin-right:auto;color:var(--ink);
+  font-weight:700;font-size:13.5px;letter-spacing:.2em;padding:10px 14px 10px 6px;
+}
+.brand:hover{color:var(--ink);border-color:transparent}
+.brand .dot{color:var(--accent)}
+.pill.out{color:var(--accent)}
+.pill.out:hover{color:var(--accent);border-color:var(--rule)}
+@media(max-width:700px){
+  .navbar{padding:16px 16px 4px}
+  .pill{font-size:11px;padding:8px 9px;letter-spacing:.12em}
+  .brand{width:100%;margin-right:0;padding-left:9px}
+}
+
+/* ---------- HERO ---------- */
+.hero{padding:44px 0 22px}
+.hero .inner{
+  display:grid;grid-template-columns:minmax(0,1.32fr) minmax(0,.68fr);
+  gap:56px;align-items:center;
+  background:var(--card);border:1px solid var(--rule);border-radius:3px;
+  padding:64px 60px;
+  box-shadow:var(--lift-deep);
+}
+@media(max-width:900px){.hero .inner{grid-template-columns:1fr;padding:40px 28px;gap:34px}}
+
+.eyebrow{
+  display:inline-block;font-family:var(--display);font-weight:600;
+  font-size:11.5px;letter-spacing:.34em;text-transform:uppercase;
+  color:var(--dim);
+  padding:0 0 12px;
+  border-bottom:1px solid var(--rule);
+}
+
+/* ---------- THE MOTION TITLE (the only title in motion) ---------- */
+h1{
+  font-family:var(--display);font-weight:600;
+  font-size:clamp(44px,7.6vw,96px);
+  line-height:1.0;letter-spacing:-.012em;
+  color:var(--ink);margin-top:34px;
+}
+h1 .ln{display:block;overflow:hidden;padding-bottom:.04em}
+h1 .ln > span{
+  display:block;
+  transform:translateY(102%);
+  opacity:0;
+  animation:type-rise 1.05s var(--ease) forwards;
+}
+h1 .ln:nth-child(1) > span{animation-delay:.10s}
+h1 .ln:nth-child(2) > span{animation-delay:.22s}
+h1 .ln:nth-child(3) > span{animation-delay:.34s}
+@keyframes type-rise{
+  from{transform:translateY(102%);opacity:0}
+  60%{opacity:1}
+  to{transform:translateY(0);opacity:1}
+}
+h1 .dot{
+  color:var(--accent);
+  display:inline-block;
+  animation:lamp 9s ease-in-out 1.6s infinite;
+}
+@keyframes lamp{0%,100%{opacity:1}50%{opacity:.45}}
+.rule-draw{
+  height:1px;background:var(--rule);margin-top:30px;max-width:340px;
+  transform:scaleX(0);transform-origin:left center;
+  animation:draw 1.2s var(--ease) .58s forwards;
+}
+@keyframes draw{to{transform:scaleX(1)}}
+
+.promise{
+  font-family:var(--text);font-weight:400;
+  font-size:clamp(18px,2.3vw,25px);line-height:1.42;
+  color:var(--soft);max-width:24ch;margin-top:26px;
+}
+.lede{max-width:54ch;margin-top:22px;color:var(--body);font-size:17px;line-height:1.78}
+
+.cta{
+  display:inline-block;margin-top:34px;
+  font-family:var(--display);font-weight:600;font-size:12px;
+  letter-spacing:.24em;text-transform:uppercase;
+  color:var(--ink);
+  padding:15px 0 11px;
+  border-bottom:1px solid var(--ink);
+  transition:color .3s var(--ease),border-color .3s var(--ease);
+  cursor:pointer;
+}
+.cta:hover{color:var(--accent);border-color:var(--accent)}
+.cta:focus-visible{outline:2px solid var(--accent);outline-offset:5px}
+
+/* the still panel: a window with the light left on */
+.still-stage{display:flex;align-items:center;justify-content:center}
+.still-stage svg{width:min(250px,60vw);height:auto}
+@media(max-width:900px){.still-stage{justify-content:flex-start}}
+
+/* ---------- PLATE ---------- */
+.plate{margin:0;padding:34px 0 10px}
+.plate .card{
+  background:var(--tint);border:1px solid var(--rule);border-radius:3px;
+  box-shadow:var(--lift);padding:52px 40px 30px;
+  display:flex;flex-direction:column;align-items:center;gap:34px;
+}
+.plate svg{width:min(400px,72vw);height:auto;overflow:visible}
+.plate svg .line{fill:none;stroke:var(--soft);stroke-width:5;stroke-linecap:round;stroke-linejoin:round}
+.plate svg .glow{fill:none;stroke:var(--accent);stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:2 15;opacity:.85}
+.plate svg .shade{fill:none;stroke:var(--soft);stroke-width:5;stroke-linejoin:round;stroke-linecap:round}
+.plate figcaption{
+  font-family:var(--display);font-weight:600;font-size:11px;
+  letter-spacing:.3em;text-transform:uppercase;color:var(--dim);
+  text-align:center;
+}
+
+/* ---------- SECTION HEAD ---------- */
+.head{margin-bottom:40px;display:flex;flex-direction:column;align-items:flex-start;gap:22px}
+.head h2{
+  font-family:var(--display);font-weight:600;
+  font-size:clamp(26px,3.7vw,44px);line-height:1.14;
+  letter-spacing:-.008em;color:var(--ink);max-width:21ch;
+}
+
+/* ---------- CARD GRID ---------- */
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(268px,1fr));gap:1px;background:var(--rule-soft);border:1px solid var(--rule-soft)}
+.card{
+  padding:36px 32px 32px;
+  display:flex;flex-direction:column;gap:16px;
+  background:var(--card);
+  transition:background .45s var(--ease);
+}
+.card:hover{background:var(--solid)}
+.card .n{
+  align-self:flex-start;
+  font-family:var(--display);font-weight:600;font-size:11px;letter-spacing:.28em;
+  color:var(--dim);
+}
+.card h3{
+  font-family:var(--display);font-weight:600;font-size:17px;
+  letter-spacing:.14em;text-transform:uppercase;color:var(--ink);line-height:1.3;
+}
+.card p{font-size:16px;line-height:1.75;color:var(--body)}
+.tag{
+  align-self:flex-start;margin-top:auto;padding-top:18px;
+  font-family:var(--display);font-weight:600;font-size:11px;
+  letter-spacing:.26em;text-transform:uppercase;color:var(--dim);
+}
+.who .cards{background:var(--rule-soft)}
+
+/* SAFEGUARDS - the most stable surface on the page. White, deepest ink. */
+.safe .cards{background:var(--rule)}
+.safe .card{background:var(--solid)}
+.safe .card h3,.safe .card p{color:var(--ink)}
+.safe .card .n,.safe .card .tag{color:var(--accent)}
+/* ONE BRUISE: a single safeguard card carries a rule that stops short of
+   the edge. Deliberate. Do not close it. */
+.safe .card.bruise{position:relative}
+.safe .card.bruise::after{
+  content:"";position:absolute;left:32px;right:96px;bottom:0;height:2px;
+  background:var(--accent);opacity:.62;
+}
+
+/* ---------- WHAT IT IS NOT ---------- */
+.lines .card{
+  background:var(--tint);border:1px solid var(--rule);border-radius:3px;
+  padding:56px 48px;box-shadow:var(--lift);
+}
+.lines p{font-size:clamp(17px,1.8vw,21px);line-height:1.74;color:var(--ink);max-width:62ch}
+
+/* ---------- WAITLIST ---------- */
+.wait .card{
+  background:var(--card);border:1px solid var(--rule);border-radius:3px;
+  padding:64px 48px;box-shadow:var(--lift-deep);
+  display:flex;flex-direction:column;align-items:flex-start;gap:26px;
+}
+.pull{
+  font-family:var(--display);font-weight:600;
+  font-size:clamp(27px,4.4vw,50px);line-height:1.14;letter-spacing:-.01em;
+  color:var(--ink);max-width:17ch;
+}
+
+/* ---------- FOOTER ---------- */
+footer{padding:56px 0 88px;position:relative;z-index:2}
+footer .card{
+  border-top:1px solid var(--rule);padding:36px 0 0;
+}
+.fline{display:flex;gap:30px;flex-wrap:wrap;align-items:center}
+.chip{
+  font-family:var(--display);font-weight:600;font-size:11.5px;
+  letter-spacing:.22em;text-transform:uppercase;color:var(--dim);
+}
+.chip.still{color:var(--dim)}
+a.chip{
+  border-bottom:1px solid transparent;padding-bottom:3px;
+  transition:color .3s var(--ease),border-color .3s var(--ease);cursor:pointer;
+}
+a.chip:hover{color:var(--accent);border-color:var(--accent)}
+a.chip:focus-visible{outline:2px solid var(--accent);outline-offset:4px}
+.legal{
+  margin-top:38px;font-family:var(--text);font-weight:600;font-size:11.5px;
+  letter-spacing:.16em;text-transform:uppercase;color:var(--dim);line-height:1.9;
+}
+
+/* ---------- THE COMPANION, REPLACED ----------
+   The blob with eyes is gone. What follows the pointer now is a lamp:
+   a soft pool of warm light that lags well behind, then settles into the
+   corner and stays on. Decorative, never blocks a click. */
+#lamp{
+  position:fixed;left:0;top:0;width:260px;height:260px;z-index:1;
+  pointer-events:none;
+  transform:translate3d(-400px,-400px,0);
+  will-change:transform;
+  background:radial-gradient(circle at 50% 50%,
+     rgba(196,142,96,.20) 0%,
+     rgba(196,142,96,.12) 34%,
+     rgba(196,142,96,.045) 62%,
+     rgba(196,142,96,0) 78%);
+  opacity:.55;
+  transition:opacity 1.1s var(--ease);
+}
+#lamp.rest{opacity:.34}
+
+/* ---------- ENTRANCE: pure CSS, always completes, never JS-gated ---------- */
+.rise{animation:rise .7s var(--ease) both}
+.d1{animation-delay:.06s}.d2{animation-delay:.12s}.d3{animation-delay:.18s}
+@keyframes rise{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:none}}
+
+/* ---------- REDUCED MOTION ----------
+   Everything autonomous stops. The title renders complete and reads as a
+   finished poster. The lamp parks in the corner and simply stays on. */
+@media(prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  .field b{animation:none!important}
+  .rise{animation:none!important;opacity:1!important;transform:none!important}
+  h1 .ln > span{animation:none!important;transform:none!important;opacity:1!important}
+  h1 .dot{animation:none!important;opacity:1!important}
+  .rule-draw{animation:none!important;transform:none!important}
+  #lamp{transition:none!important}
+  .pill,.cta,a.chip,.card{transition:none!important}
+}
+</style>
+</head>
+<body>
+
+<div class="field" aria-hidden="true"><b></b><b></b><b></b></div>
+<div id="lamp" aria-hidden="true"></div>
+
+<nav class="navbar" aria-label="Primary">
+  <div class="bar">
+    <a class="pill brand" href="/">WITCHCRAFT<span class="dot">.</span>LOVE</a>
+    <a class="pill" href="#who">WHO IT IS FOR</a>
+    <a class="pill" href="#safe">SAFEGUARDS</a>
+    <a class="pill" href="#not">WHAT IT IS NOT</a>
+    <a class="pill" href="#wait">WAITLIST</a>
+    <a class="pill out" href="https://witchcraft.business">WITCHCRAFT.BUSINESS ↗</a>
+  </div>
+</nav>
+
+<main id="top">
+
+<header class="hero wrap">
+  <div class="inner rise">
+    <div>
+      <p class="eyebrow">NADIA &nbsp;·&nbsp; COMPANY KEPT</p>
+      <h1>
+        <span class="ln"><span>COMPANY,</span></span>
+        <span class="ln"><span>NOT</span></span>
+        <span class="ln"><span>THERAPY<span class="dot">.</span></span></span>
+      </h1>
+      <div class="rule-draw" aria-hidden="true"></div>
+      <p class="promise">For the hours when nobody calls.</p>
+      <p class="lede">Nadia keeps company. She remembers yesterday, asks after the garden, and hears when a voice is not itself. When a person is needed, she brings one. The promise is narrow, and it is kept.</p>
+      <a class="cta" href="mailto:hecate@witch.codes?subject=Nadia%20Waitlist">THE WAITLIST</a>
+    </div>
+    <div class="still-stage" aria-hidden="true">
+      <svg viewBox="0 0 220 300" xmlns="http://www.w3.org/2000/svg">
+        <defs>
+          <linearGradient id="pane" x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0%" stop-color="#E9D9C6"/>
+            <stop offset="100%" stop-color="#F6F1E9"/>
+          </linearGradient>
+        </defs>
+        <rect x="18" y="14" width="184" height="238" rx="2" fill="url(#pane)" stroke="#DBD3C8" stroke-width="1.5"/>
+        <path d="M110 14 L110 252 M18 133 L202 133" stroke="#DBD3C8" stroke-width="1.5"/>
+        <path d="M8 252 L212 252" stroke="#56504A" stroke-width="2"/>
+        <path d="M56 286 L164 286" stroke="#7A4230" stroke-width="2" opacity=".55"/>
+      </svg>
+    </div>
+  </div>
+</header>
+
+<figure class="plate wrap rise d1" data-prompt="A single warm lamp on a side table in a quiet living room, soft pool of light, empty armchair beside it, gentle shadow, black and white, film grain, quiet domestic editorial photography">
+  <div class="card">
+    <svg viewBox="0 0 600 400" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+      <path class="line" d="M300 60 L300 158"/>
+      <path class="shade" d="M256 200 L300 152 L344 200 Z"/>
+      <path class="glow" d="M250 224 L196 336 M350 224 L404 336"/>
+      <path class="line" d="M150 356 L450 356"/>
+    </svg>
+    <figcaption>PLATE 01 · THE LAMP, LEFT ON</figcaption>
+  </div>
+</figure>
+
+<div class="breath"></div>
+
+<section id="who" class="who wrap">
+  <div class="head">
+    <p class="eyebrow">WHO IT IS FOR</p>
+    <h2>The quiet hours are the whole territory.</h2>
+  </div>
+  <div class="cards">
+    <article class="card rise d1">
+      <span class="n">01</span>
+      <h3>ISOLATION</h3>
+      <p>Days spent far from family, or simply spent alone. Conversation that carries yesterday into today.</p>
+      <span class="tag">COMPANY</span>
+    </article>
+    <article class="card rise d2">
+      <span class="n">02</span>
+      <h3>AGEING</h3>
+      <p>Routine held, memory kept, a voice that never checks its watch. Families stay in the loop by consent.</p>
+      <span class="tag">COMPANY</span>
+    </article>
+    <article class="card rise d3">
+      <span class="n">03</span>
+      <h3>AFTER TRAUMA</h3>
+      <p>Steady, predictable, bounded company while the days are rebuilt. Never a substitute for clinical care.</p>
+      <span class="tag">COMPANY</span>
+    </article>
+  </div>
+</section>
+
+<section id="safe" class="safe wrap">
+  <div class="head">
+    <p class="eyebrow">SAFEGUARDS</p>
+    <h2>Built in, not bolted on.</h2>
+  </div>
+  <div class="cards">
+    <article class="card bruise rise d1">
+      <span class="n">01</span>
+      <h3>HUMAN ESCALATION</h3>
+      <p>When distress is detected, a human is brought in. The pathway is set at onboarding, name by name.</p>
+      <span class="tag">BUILT IN</span>
+    </article>
+    <article class="card rise d2">
+      <span class="n">02</span>
+      <h3>NO CLINICAL CLAIMS</h3>
+      <p>Nadia does not diagnose, treat, or advise on medication. She notices, and she hands over.</p>
+      <span class="tag">THE LINE</span>
+    </article>
+    <article class="card rise d3">
+      <span class="n">03</span>
+      <h3>PRIVACY</h3>
+      <p>Conversations belong to the person having them. Consented sharing only, revocable at any time, deletable entirely.</p>
+      <span class="tag">THE RULE</span>
+    </article>
+  </div>
+</section>
+
+<section id="not" class="lines wrap">
+  <div class="head">
+    <p class="eyebrow">WHAT IT IS NOT</p>
+    <h2>The lines, stated plainly.</h2>
+  </div>
+  <div class="card rise d1">
+    <p>Not therapy. Not a medical device. Not a crisis service - emergencies go to humans, immediately and by design. Not a replacement for the people who should be calling. Nadia is company, and company is enough to be worth doing properly.</p>
+  </div>
+</section>
+
+<div class="breath"></div>
+
+<section id="wait" class="wait wrap">
+  <div class="card">
+    <p class="eyebrow">THE WAITLIST</p>
+    <p class="pull">Small cohorts. Onboarded slowly, on purpose.</p>
+    <a class="cta" href="mailto:hecate@witch.codes?subject=Nadia%20Waitlist">JOIN</a>
+  </div>
+</section>
+
+</main>
+
+<footer class="wrap">
+  <div class="card rise">
+    <div class="fline">
+      <a class="chip" href="mailto:hecate@witch.codes">HECATE@WITCH.CODES</a>
+      <a class="chip" href="https://witchcraft.business">WITCHCRAFT.BUSINESS</a>
+      <span class="chip still">SYDNEY</span>
+      <span class="chip still">BY APPOINTMENT</span>
+    </div>
+    <p class="legal">© WITCHCRAFT AI · WITCHCRAFT AI · MMXXVI - TWO LINES, ONE ARCHITECTURE</p>
+  </div>
+<div class="cisfoot" style="margin:56px 0 0;padding:22px 0 10px;border-top:1px solid rgba(10,10,10,.25);font-family:Helvetica,Arial,sans-serif;font-size:10px;letter-spacing:.14em;line-height:2.1;color:rgba(10,10,10,.72);text-transform:uppercase;"><a href="https://witch.codes" style="display:block;margin:0 0 16px;"><img src="/assets/foot-art.jpg" alt="WITCH.CODES" style="width:100%;max-width:220px;height:auto;display:block;border:1px solid rgba(10,10,10,.22);"></a><a href="https://witch.codes" style="display:block;margin:0 0 16px;"><img src="/assets/foot-art.jpg" alt="WITCH.CODES" style="width:100%;max-width:220px;height:auto;display:block;border:1px solid rgba(10,10,10,.22);"></a>BUTTERFLY KINGDOM NSW PTY LTD TRADING AS WITCHCRAFT AI &middot; ABN 11 691 050 969 &middot; ACN 691 050 969 &middot; G/17 THE SEVEN WAYS ROCKDALE NSW 2216<br><a href="https://witch.codes" style="color:inherit;">WITCH.CODES</a> &middot; <a href="https://witchcraft.business" style="color:inherit;">WITCHCRAFT.BUSINESS</a> &middot; <a href="https://witchcraft.living" style="color:inherit;">WITCHCRAFT.LIVING</a> &middot; <a href="https://witchcraft.homes" style="color:inherit;">WITCHCRAFT.HOMES</a> &middot; <a href="https://witchcraft.expert" style="color:inherit;">WITCHCRAFT.EXPERT</a> &middot; <a href="https://witchcraft.boutique" style="color:inherit;">WITCHCRAFT.BOUTIQUE</a> &middot; <a href="https://witchcraft.delivery" style="color:inherit;">WITCHCRAFT.DELIVERY</a> &middot; <a href="https://witchcraft.pics" style="color:inherit;">WITCHCRAFT.PICS</a> &middot; <a href="https://witchcraft.video" style="color:inherit;">WITCHCRAFT.VIDEO</a><br><a href="mailto:hecate@witch.codes" style="color:inherit;">HECATE@WITCH.CODES</a></div>
+</footer>
+
+<script>
+(function(){
+  "use strict";
+
+  var lamp = document.getElementById('lamp');
+  if(!lamp) return;
+
+  var reduce = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+  var SIZE = 260;
+  var LERP = 0.045;   /* it lags far behind. it never chases. */
+  var IDLE = 5000;    /* it returns to the corner after five quiet seconds */
+  var raf  = 0;
+  var idleAt = 0;
+  var resting = false;
+
+  function corner(){
+    return {
+      x: Math.max(0, window.innerWidth  - SIZE * 0.72),
+      y: Math.max(0, window.innerHeight - SIZE * 0.72)
+    };
+  }
+
+  var park = corner();
+  var pos  = { x: park.x, y: park.y };
+  var goal = { x: park.x, y: park.y };
+
+  function place(){
+    lamp.style.transform = 'translate3d(' + pos.x.toFixed(1) + 'px,' + pos.y.toFixed(1) + 'px,0)';
+  }
+
+  /* Static frame first: the lamp is already lit in its corner before any
+     motion code runs, so the page is complete without the loop. */
+  place();
+  lamp.classList.add('rest');
+  resting = true;
+  idleAt = Date.now();
+
+  if(reduce){
+    /* Reduced motion: no loop, no follow. The light is on and stays on. */
+    window.addEventListener('resize', function(){
+      park = corner(); pos.x = park.x; pos.y = park.y; place();
+    });
+    return;
+  }
+
+  /* ---- the single rAF loop ---- */
+  function frame(){
+    var dx = goal.x - pos.x;
+    var dy = goal.y - pos.y;
+    pos.x += dx * LERP;
+    pos.y += dy * LERP;
+    place();
+
+    if(!resting && Date.now() - idleAt > IDLE){
+      resting = true;
+      lamp.classList.add('rest');
+      park = corner();
+      goal.x = park.x;
+      goal.y = park.y;
+    }
+
+    /* Stop the loop entirely once it has settled. Nothing spins in the
+       background waiting for something to happen. */
+    if(resting && Math.abs(dx) < 0.5 && Math.abs(dy) < 0.5){
+      pos.x = goal.x; pos.y = goal.y; place();
+      raf = 0;
+      return;
+    }
+    raf = requestAnimationFrame(frame);
+  }
+
+  function wake(){
+    if(document.hidden) return;
+    if(!raf) raf = requestAnimationFrame(frame);
+  }
+
+  function follow(x, y){
+    goal.x = x - SIZE / 2;
+    goal.y = y - SIZE / 2;
+    idleAt = Date.now();
+    if(resting){ resting = false; lamp.classList.remove('rest'); }
+    wake();
+  }
+
+  window.addEventListener('pointermove', function(e){
+    follow(e.clientX, e.clientY);
+  }, {passive:true});
+
+  /* Keyboard users get the same light: it moves to whatever is focused. */
+  document.addEventListener('focusin', function(e){
+    var el = e.target;
+    if(!el || !el.getBoundingClientRect) return;
+    var r = el.getBoundingClientRect();
+    if(!r.width && !r.height) return;
+    follow(r.left + r.width / 2, r.top + r.height / 2);
+  });
+
+  window.addEventListener('resize', function(){
+    park = corner();
+    if(resting){ goal.x = park.x; goal.y = park.y; wake(); }
+  });
+
+  document.addEventListener('visibilitychange', function(){
+    if(document.hidden){
+      if(raf){ cancelAnimationFrame(raf); raf = 0; }
+    } else {
+      idleAt = Date.now();
+      wake();
+    }
+  });
+})();
+</script>
+</body>
+</html>
